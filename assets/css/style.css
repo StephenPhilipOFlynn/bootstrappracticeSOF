@@ -1,3 +1,13 @@
 body {
     background-color: #722F37;
 }
+
+#review-pic {
+    max-width: 100%;
+    height:auto;
+}
+
+#index-page-pic{
+    max-width: 100%;
+    height:auto;
+}
