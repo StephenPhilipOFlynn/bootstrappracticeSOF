@@ -1,6 +1,7 @@
 body {
     background-color: #722F37;
     font-family: 'Inconsolata', monospace;
+    color:azure;
 }
 
 #review-pic {
@@ -11,4 +12,12 @@ body {
 #index-page-pic {
     max-width: 100%;
     height:auto;
+}
+
+body #nav-font {
+    color: darkblue;
+}
+
+body #container-font {
+    color: darkblue;
 }
