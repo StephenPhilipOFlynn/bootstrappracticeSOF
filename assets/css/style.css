@@ -23,6 +23,26 @@ body #container-font {
     color: darkblue;
 }
 
+/* Index page slideshow */
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slides {
+    display: flex;
+    /* add transform here */
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+
 /* social media footer section */
 
 .social-networks {
@@ -39,3 +59,5 @@ body #container-font {
     padding: 5%;
     color: #ffffff;
 }
+
+
