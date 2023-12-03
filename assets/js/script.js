@@ -10,7 +10,7 @@ function slideShow() {
         slideIndex = 0;
     }
 
-    //transform function here
+    //transform functionality here
 
     setTimeout(showSlides, 3000);
 }
