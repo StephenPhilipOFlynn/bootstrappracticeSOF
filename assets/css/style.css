@@ -23,6 +23,14 @@ body #container-font {
     color: darkblue;
 }
 
+body #quotes {
+    color: azure;
+}
+
+body #features {
+    color: azure;
+}
+
 /* Index page slideshow */
 
 .slideshow-container {
