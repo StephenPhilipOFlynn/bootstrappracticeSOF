@@ -2,7 +2,7 @@
 
 slideIndex = 0;
 
-function slideShow() {
+function showSlides() {
     const slides = document.querySelectorAll('.slides img');
     slideIndex++;
     
@@ -10,7 +10,9 @@ function slideShow() {
         slideIndex = 0;
     }
 
-    //transform functionality here
+    slides.forEach(function(slide) {
+        slide.style.transform = 'translateX(-' + slideIndex * 100 + '%)';
+    })
 
     setTimeout(showSlides, 3000);
 }

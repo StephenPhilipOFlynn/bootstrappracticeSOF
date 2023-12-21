@@ -48,8 +48,8 @@ body #features {
 .slides img {
     width: 100%;
     height: auto;
+    transition: transform 0.5s ease;
 }
-
 
 /* social media footer section */
 
