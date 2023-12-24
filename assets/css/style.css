@@ -76,6 +76,22 @@ body #features {
     margin: 50px;
 }
 
+/* booking css */
+
+form {
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
 /* responsive design */
 
 @media (max-width: 900px) {
