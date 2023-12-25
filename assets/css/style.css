@@ -79,8 +79,10 @@ body #features {
 /* booking css */
 
 form {
+    max-width: 400px;
     padding: 20px;
     background-color: white;
+    color: black;
     border-radius: 4px;
     margin: 10px;
 }
@@ -90,6 +92,15 @@ label {
     font-weight: bold;
     margin-bottom: 5px;
 }
+
+input[type=submit] {
+    cursor: pointer;
+    padding: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #008C45;
+} 
 
 
 /* responsive design */
